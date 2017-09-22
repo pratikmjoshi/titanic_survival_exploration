@@ -13362,7 +13362,7 @@ Make sure to keep track of the various features and conditions you tried before 
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Answer</strong>: Accuracy is 80.13%</p>
+<p><strong>Answer</strong>: Accuracy is 80.13%. I, step by step, created various splits in data, and using the visualization, observed which split would be more polarizing. For example, there are much more females than males who have survived, and using this ratio, I predicted that all females survived. Next, I observed that given that the passenger was a male, if he had no parent or children, his probability of survival was very low, hence I classified all those passengers as having not survived. I observed that passengers with Pclass=3 had a very low chance of surviving, hence I classified them as such. I found that all the above features(Parch,Sex,Pclass) divided the data more than the Age, hence I checked Age at the end, and classified all those below age of 18 as having survived. The features/conditions divided the data most effectively compared to features like SibSp.</p>
 
 </div>
 </div>
